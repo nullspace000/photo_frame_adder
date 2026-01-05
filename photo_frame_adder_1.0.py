@@ -7,7 +7,7 @@ img = Image.open("image.jpg")
 framed = ImageOps.expand(
     img,
     border=40,          # thickness in pixels
-    fill="black"        # frame color
+    fill="white"        # frame color
 )
 
 framed.save("framed.jpg")
