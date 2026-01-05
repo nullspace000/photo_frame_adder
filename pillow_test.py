@@ -1,3 +1,5 @@
+#example from some random website
+
 from PIL import Image, ImageFilter
 #Read image
 im = Image.open( 'image.jpg' )
