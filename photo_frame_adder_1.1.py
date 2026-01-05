@@ -9,7 +9,7 @@ width, height = img.size
 longer_axis = max(width, height)
 
 # 10% of the longer axis (must be an int)
-border_size = int(longer_axis * 0.10)
+border_size = int(longer_axis * 0.05)
 
 # Add white frame
 framed = ImageOps.expand(
